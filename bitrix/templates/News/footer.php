@@ -1,6 +1,9 @@
-			</section>
+			
+				</div>
+			</div>
 		</div>
-		
+	</section>
+
 		<div class="footer-container">
 		
 			<footer class="bg-footer short-2">
