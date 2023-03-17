@@ -1,0 +1,12 @@
+div.news-list
+{
+	word-wrap: break-word;
+}
+
+.rows {
+ overflow: hidden;
+}
+
+h5:hover {
+ color: #3498db;
+}

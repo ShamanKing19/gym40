@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Сведения о гимназии", 
+		"/Gym40_information/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Наша Гимназия", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Инновации", 
+		"/teachers/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Учащимся", 
+		"/students/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Родителям", 
+		"/parents/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Поступающим", 
+		"/incoming/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/novosti/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Дистант", 
+		"/distant/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

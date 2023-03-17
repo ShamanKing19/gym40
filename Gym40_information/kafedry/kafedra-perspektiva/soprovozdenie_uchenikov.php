@@ -1,0 +1,12 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Кафедра \"Перспектива\"");
+?><h4>Программа сопровождения учащихся кафедры "Перспектива":</h4>
+ <a href="/Gym40_information/kafedry/kafedra-perspektiva/documents/Publikacii.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg text-pdf" aria-hidden="true"></i> Публикации, сайты учеников и учителей - предметников в 2016-2017 учебном году</a> <br>
+ <a href="/Gym40_information/kafedry/kafedra-perspektiva/documents/Result_sorevnovaniya.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg text-pdf" aria-hidden="true"></i> Результаты участия кафедры ФК и спорта в конкурсах, соревнованиях</a> <br>
+ <a href="/Gym40_information/kafedry/kafedra-perspektiva/documents/Temi_vneurochka.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg text-pdf" aria-hidden="true"></i> Список тем в рамках внеурочной деятельности</a> <br>
+ <a href="/Gym40_information/kafedry/kafedra-perspektiva/documents/Uchastie_v_meropriyatiyach.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg text-pdf" aria-hidden="true"></i> Участие учеников в конкурсах, в конференциях (семинарах, вебинаров), акциях и олимпиадах</a> <br>
+ <a href="/Gym40_information/kafedry/kafedra-perspektiva/documents/Uchastie_uchiteley.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg text-pdf" aria-hidden="true"></i> Участие в конкурсах, олимпиадах учителя - предметника в 2016-2017 учебном году</a> <br>
+ <a href="/Gym40_information/kafedry/kafedra-perspektiva/documents/Uchstie_v_seminarah.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg text-pdf" aria-hidden="true"></i> Участие в семинарах (конференциях) учеников и учителей - предметников в 2016-2017 учебном году</a> <br>
+ <a href="/Gym40_information/kafedry/kafedra-perspektiva/documents/Shkola_soprovozhdeniya.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg text-pdf" aria-hidden="true"></i> Школа сопровождения</a> <br>
+ <a href="/Gym40_information/kafedry/kafedra-perspektiva/documents/Elektivnie_kursi.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-lg text-pdf" aria-hidden="true"></i> Элективные курсы предпрофильного и профильного обучения</a><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

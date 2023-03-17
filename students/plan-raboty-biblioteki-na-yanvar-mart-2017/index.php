@@ -1,0 +1,4 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("");
+?><span style="font-family: Verdana; font-size: 10pt;"><a target="_blank" href="/students/plan-raboty-biblioteki/апрель-май.план работы библиотеки.pdf">План мероприятий на апрель – май 2016-2017 учебного года</a></span><span style="font-family: Verdana; font-size: 10pt;"> </span><span style="font-family: Verdana; font-size: 10pt;"> </span><span style="font-family: Verdana; font-size: 10pt;"> </span><span style="font-family: Verdana; font-size: 10pt;"> </span><span style="font-family: Verdana; font-size: 10pt;"> </span><span style="font-family: Verdana; font-size: 10pt;"> </span><span style="font-family: Verdana; font-size: 10pt;"> </span><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

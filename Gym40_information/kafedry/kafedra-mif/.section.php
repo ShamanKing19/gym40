@@ -1,0 +1,3 @@
+<?
+$sSectionName="Кафедра_MIF";
+?>

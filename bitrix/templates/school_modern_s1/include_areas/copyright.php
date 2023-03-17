@@ -1,0 +1,2 @@
+<?=GetMessage("SCHOOL_TEMPLATE_COPYRIGHT")?> <b><a href="http://www.1c-bitrix.ru/products/cms/security/#tab-Sertificat-link" title="Ссылка: http://www.1c-bitrix.ru/products/cms/security/#tab-Sertificat-link">Политика безопасности</a><br>
+ </b>

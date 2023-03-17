@@ -1,0 +1,3 @@
+<?
+$sSectionName="diplomaty_fevral";
+?>

@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Школьный спортивный клуб \"Метеор\"", 
+		"/about/sport/meteor/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости спорта", 
+		"/about/sport/novosti/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Спортивная площадка", 
+		"/about/sport/sport-ploshchadka/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Награды", 
+		"/about/sport/nagrady/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Фотогалерея", 
+		"/about/sport/fotogalereya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Документы", 
+		"/about/sport/dokumenty/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ГТО", 
+		"/about/sport/gto/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

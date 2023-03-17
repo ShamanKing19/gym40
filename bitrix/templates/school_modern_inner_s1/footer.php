@@ -1,0 +1,114 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+
+            </div><!-- /.content-->
+        </div><!-- /.container-->
+
+        <div class="sidebar">
+
+            <?$APPLICATION->IncludeComponent(
+	"bitrix:menu", 
+	"left", 
+	array(
+		"ROOT_MENU_TYPE" => "left",
+		"MENU_CACHE_TYPE" => "A",
+		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MAX_LEVEL" => "1",
+		"CHILD_MENU_TYPE" => "podmenu",
+		"USE_EXT" => "N",
+		"DELAY" => "N",
+		"ALLOW_MULTI_SELECT" => "N",
+		"MENU_THEME" => "site"
+	),
+	false
+);?>
+
+            <div class="sd_block sd_img_banner">
+                <?$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH.'/include_areas/schedule.php', array(), array('MODE' => 'html'))?>
+            </div>
+            
+        </div><!-- /.sidebar -->
+
+        <div class="clearfix"></div>
+
+    </div><!-- /.middle-->
+
+</div><!-- /.wrapper -->
+
+<div class="footer">
+    <div class="footer_middle">
+
+        <table>
+            <tr>
+                <?$APPLICATION->IncludeComponent(
+	"bitrix:menu", 
+	"bottom", 
+	array(
+		"ROOT_MENU_TYPE" => "top",
+		"MAX_LEVEL" => "2",
+		"CHILD_MENU_TYPE" => "podmenu",
+		"USE_EXT" => "Y",
+		"MENU_CACHE_TYPE" => "A",
+		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"DELAY" => "N",
+		"ALLOW_MULTI_SELECT" => "N"
+	),
+	false
+);?>
+                <td class="footer_info">
+                    <?$APPLICATION->IncludeComponent(
+                        "bitrix:search.form",
+                        "footer",
+                        Array(
+                            "USE_SUGGEST" => "N",
+                            "PAGE" => "/search/"
+                        ),
+                        false
+                    );?>
+                    <?$APPLICATION->IncludeFile($APPLICATION->GetTemplatePath("include_areas/buttons.php"), Array(), Array("MODE"=>"html"));?>
+                    <div class="clearfix"></div>
+                    <h5><?$APPLICATION->IncludeFile($APPLICATION->GetTemplatePath("include_areas/footer_phone.php"), Array(), Array("MODE"=>"html"));?></h5>
+                    <p><?$APPLICATION->IncludeFile($APPLICATION->GetTemplatePath("include_areas/footer_address.php"), Array(), Array("MODE"=>"html"));?></p>
+                    <p><?$APPLICATION->IncludeFile($APPLICATION->GetTemplatePath("include_areas/footer_feedback.php"), Array(), Array("MODE"=>"html"));?></p>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</div><!-- /.footer -->
+<div class="footer_btm">
+    <div class="footer_btm_wrap">
+        <?$APPLICATION->IncludeFile($APPLICATION->GetTemplatePath("include_areas/footer_name.php"), Array(), Array("MODE"=>"html"));?>
+    </div>
+</div>
+
+
+<!-- JavaScript
+================================================== -->
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.carouFredSel-6.0.6.min.js"></script>
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.formstyler.min.js"></script>
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.datePicker.js"></script>
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/date.js"></script>
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/date_ru_win1251.js"></script>
+<!--[if IE]><script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.bgiframe.min.js"></script><![endif]-->
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.placeholder.min.js"></script>
+<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/scripts.js"></script>
+
+<!-- Спутник -->
+<script type="text/javascript">
+       (function(d, t, p) {
+           var j = d.createElement(t); j.async = true; j.type = "text/javascript";
+           j.src = ("https:" == p ? "https:" : "http:") + "//stat.sputnik.ru/cnt.js";
+           var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
+       })(document, "script", document.location.protocol);
+    </script>
+</body>
+</html>

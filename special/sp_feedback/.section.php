@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Обращение";
+$arDirProperties = Array(
+
+);
+?>

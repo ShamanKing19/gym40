@@ -1,0 +1,11 @@
+.deputy-box {
+	height: 1%;
+	margin-top: 1em;
+}
+.deputy-foto {
+	position: relative;
+	top: 18px;
+}
+.deputy-box .link-bord {
+	padding-bottom: 2px;
+}

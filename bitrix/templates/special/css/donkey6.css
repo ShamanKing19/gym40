@@ -1,0 +1,58 @@
+#content div.selectbox-wrapper ul li {
+	height: 22px;
+}
+.filter-table .selectbox {
+	width: 479px !important;
+}
+#sma-alt-btn-hide {
+	height: 20px;
+	bottom: -23px;
+	background: url(../img/alt-param.png) 0 -23px;
+}
+#menu,.res-search-it {
+	zoom: 1;
+}
+.res-search-it  {
+	padding-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+.res-search-it  .li-count {
+	margin-top: 25px;
+}
+#sma-alt-btn-hide-1 {
+	background: url(../img/alt-param.png) 0 -72px;
+	bottom: -24px;
+}
+#sma-alt-btn-hide-2 {
+	background: url(../img/alt-param.png) 0 -120px;
+	bottom: -24px;
+}
+#sma-alt-btn-hide-1,#sma-alt-btn-hide-2 {
+	display: none;
+}
+#sma-alt-btn-hide {
+	display: block;
+}
+.black #sma-alt-btn-hide,.black #sma-alt-btn-hide-2 {
+	display: block;
+}
+.black #sma-alt-btn-hide-1 {
+	display: block;
+}
+.blue #sma-alt-btn-hide,.blue #sma-alt-btn-hide-1 {
+	display: none;
+}
+.blue #sma-alt-btn-hide-2 {
+	display: block;
+}
+.deputy-box {
+	height: 1%;
+	margin-top: 1em;
+}
+.deputy-foto {
+	position: relative;
+	top: 18px;
+}
+.deputy-box .link-bord {
+	padding-bottom: 2px;
+}

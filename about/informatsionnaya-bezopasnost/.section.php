@@ -1,0 +1,3 @@
+<?
+$sSectionName="informatsionnaya-bezopasnost";
+?>

@@ -1,0 +1,1 @@
+<img width="120" src="/bitrix/templates/school_modern_s1/images/logo.png" height="109">

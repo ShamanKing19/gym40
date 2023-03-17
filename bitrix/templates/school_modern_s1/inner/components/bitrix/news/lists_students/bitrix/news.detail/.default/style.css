@@ -1,0 +1,4 @@
+.lists_students_detail {width:100%;}
+.lists_students_detail td {vertical-align:top;border:1px solid #aaa;padding:10px}
+.lists_students_detail .pic {width:100px}
+.lists_students_detail .sep  td{border:0}

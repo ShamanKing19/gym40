@@ -1,0 +1,6 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Шахматный турнир");
+?><p class="" style="text-align: justify;">
+ <a href="/about/sport/novosti/фото ладья 1.JPG" target="_blank"><img width="200" src="/about/sport/novosti/фото ладья 1.JPG" height="150" align="left"></a><a href="/about/sport/novosti/фото ладья.JPG" target="_blank"><img width="200" src="/about/sport/novosti/фото ладья.JPG" height="150" align="right"></a>25 января состоялся шахматный турнир «Белая ладья»!!! Наша команда в упорной борьбе заняла 3 место!!! В этом году команда была набрана из новичков турнира - это Кисель В. И Барщинцева М. Так как основной игрок команды - Комлева А.&nbsp; уехала на соревнования в Санкт-Петербург&nbsp; на первенство Северо-запада. Но ребята решительно были настроены на победу!!! По итогам всех туров мы были в тройке лучших команд, и нам не хватило 2-х баллов до 1 места. В итоге 1 место лицей №23, 2 место гимназия №32 и на&nbsp; 3 месте гимназия №40!!! Пожелаем ребятам удачи в следующем году.
+</p><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
